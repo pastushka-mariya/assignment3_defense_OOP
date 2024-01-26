@@ -52,7 +52,7 @@ class SmartPhone extends Gadget {
         System.out.println("Заряд батареи смартфона: 70%");
     }
 
-    // Дополнительные методы для SmartPhone
+
     void makeCall(String number) {
         System.out.println("Совершается звонок на номер " + number + " со смартфона.");
     }
@@ -89,7 +89,6 @@ class SmartWatch extends Gadget {
         System.out.println("Заряд батареи смарт-часов: 80%");
     }
 
-    // Дополнительные методы для SmartWatch
     void trackHeartRate() {
         System.out.println("Смарт-часы отслеживают пульс.");
     }
@@ -126,7 +125,7 @@ class SmartTV extends Gadget {
         System.out.println("У смарт-телевизора нет батареи.");
     }
 
-    // Дополнительные методы для SmartTV
+
     void streamVideo(String url) {
         System.out.println("Воспроизведение видео по URL: " + url);
     }
